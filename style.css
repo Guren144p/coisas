@@ -153,15 +153,15 @@
 }
 
 .episode-title.active-episode::before {
-  content: ''; /* Não há texto, só a cor de fundo */
+  content: ''; 
   position: absolute;
-  top: -10px; /* Ajuste o valor para controlar a expansão para cima */
-  left: -10px; /* Ajuste o valor para controlar a expansão para a esquerda */
-  right: -10px; /* Ajuste o valor para controlar a expansão para a direita */
-  bottom: -10px; /* Ajuste o valor para controlar a expansão para baixo */
-  background-color: #FF0000; /* Cor de fundo do botão ativo */
-  border-radius: 15px; /* Manter as bordas arredondadas */
-  z-index: -1; /* Para garantir que o pseudo-elemento fique atrás do texto */
+  top: -5px;  /* Diminua a expansão */
+  left: -5px; 
+  right: -5px; 
+  bottom: -5px; 
+  background-color: #FF0000; 
+  border-radius: 10px; /* Ajuste conforme necessário */
+  z-index: -1; 
 }
     
     .credits {
